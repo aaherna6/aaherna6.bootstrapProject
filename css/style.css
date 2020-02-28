@@ -1,0 +1,61 @@
+body {
+	font-family: "Libre", franklin;
+	position: relative;
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Alegreya SC", Open Sans;
+}
+
+h2 {
+	color: #3046c5;
+}
+
+p:first-child:first-letter {
+	float: left;
+	font-size: 50px;
+	line-height: 1;
+	font-weight: bold;
+	margin-right: 9px;
+}
+
+header h2 {
+	color: rgb(10, 10, 10);
+}
+
+footer {
+	background-image: rgb(255, 255, 255);
+	padding: 20px 0;
+	color: rgb(0, 0, 0);
+	font-family: "Alegreya SC", Open Sans;
+}
+
+h5 {
+	color: #0a0a0a;
+}
+
+.jumbotron {
+	padding: 30px;
+	background-image: linear-gradient(to right, #fdfdfd, #fdfdfd, rgb(255, 255, 255));
+	color: rgb(7, 0, 0);
+
+	background-size: cover;
+	margin: 0;
+}
+
+.navbar {
+	background-color: #0c0c0c;
+	text-align: center;
+}
+
+.row-content {
+	padding: 50px 0;
+	border-bottom: 1px ridge;
+	min-height: 200px;
+}
+
+.carousel-caption {
+	background-color: rgba(0, 0, 0, 0.5);
+}
